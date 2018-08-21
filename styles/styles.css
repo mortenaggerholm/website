@@ -1,0 +1,28 @@
+/* Limited reset */
+
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li,
+figure, canvas, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    outline: none;
+}
+
+a:hover {
+    color: #000000;    
+}
+
+/*html display rule*/
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, section, summary {
+    display: block;
+}
+
+body {
+    background: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
