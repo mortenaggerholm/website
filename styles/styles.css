@@ -47,7 +47,6 @@ header#mainHeader img {
 
 footer#pageFooter {
     background-color: #f4f3f3;
-    /* moz-border-radius: 15px;*/
     border-radius: 15px;
     width: 890px;
     padding: 5px;
@@ -62,3 +61,27 @@ footer#pageFooter p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* path Tags */
+
+#path {
+    position: relative;
+    left: 20px;
+    top: -20px;
+    color: #FFF;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#path li {
+    display: inline;
+
+}
+
+#path a {
+    color: #FFF
+}
+
+#path a:hover {
+    color: #79e24e;
+}
