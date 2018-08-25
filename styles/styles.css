@@ -42,3 +42,23 @@ header#mainHeader img {
     margin-bottom: -20px;
 
 }
+
+/* Footer Tags */
+
+footer#pageFooter {
+    background-color: #f4f3f3;
+    /* moz-border-radius: 15px;*/
+    border-radius: 15px;
+    width: 890px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+footer#pageFooter p {
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
