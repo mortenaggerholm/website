@@ -31,6 +31,10 @@
                     if($db == 0){
                         error ("Connection to database on '$dbhost' failed");
                     }
+                $Database = "ma"
+                if( mysql_select_db($Database, $db) == 0 ){
+                    error ("Failed to connect to '$Database' ");
+                }
             }
 
         <footer id="pageFooter"> <!--start .pageFooter-->
