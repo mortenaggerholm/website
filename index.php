@@ -18,7 +18,20 @@
             <p>Du er her: <a href="#">Forsiden</a></p>
           </div> <!--end .path--> 
         </header> 
-        
+        <!-- PHP Scripts start-->
+        <?php
+            /* MySQL Database Connect Function */
+            function mydb_connect(){
+                $dbhost = " ";
+                $user = " ";
+                $passwd = " ";
+                // Create connection
+                $db = mysql_connect($dbhost, $user, $passwd);
+                    if($db == 0){
+                        error ("Connection to database on '$dbhost' failed");
+                    }
+            }
+
         <footer id="pageFooter"> <!--start .pageFooter-->
           <p>Kontaktoplysninger: Morten Aggerholm - Tlf. 29 70 41 32 - <a href="mailto:morten@mortenaggerholm.dk">E-mail: morten(at)mortenaggerholm.dk</a></p>
           <p>&copy Copyright 2018 - Alle Rettigheder Forbeholdes</p>
