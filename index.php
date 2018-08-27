@@ -20,6 +20,7 @@
         </header> 
         <!-- PHP Scripts start-->
         <?php
+            ini_set('display_errors', FALSE);
             /* MySQL Database Connect Function */
             function mydb_connect(){
                 $dbhost = " ";
