@@ -13,5 +13,5 @@ CREATE TABLE Ejerlejlighed (
   PrisPrm2 VARCHAR (100),
   Ejerudgifter VARCHAR (100) NOT NULL,
   Status VARCHAR (100),
-  Posteddata DATE
+  Posteddate DATE
 ) ENGINE = InnoDB;
