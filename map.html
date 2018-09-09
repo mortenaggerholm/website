@@ -32,6 +32,20 @@
           <header><h1>Vejlegårdsparken 48,1,18 - 2665 Vallensbæk Strand</h1></header>
           <!--Map .container-->
           <div id="map"></div>
+          <script type="text/javascript" charset="UTF8">
+
+          /** Creates a new marker abd add it to a group
+           * @param {H.map.Group} group         The group holding the marker
+           * @param {H.map.Point} coordinate    The lat/long of the marker
+           * @param {String} html               Data associated with the marker 
+          */
+          function addMarkerToGroup (group, coordinate, html) {
+            var marker = new H.map.Marker(coordinate);
+            // add custom data to the marker
+            marker.setData(html);
+            group.addObject(marker);
+          } 
+        </script>      
         <nav id="MainNav">
           <ul id="siteNav">
             <li class="first"><a href="index.php">Forsiden</a></li>
