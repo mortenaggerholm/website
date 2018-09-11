@@ -44,7 +44,35 @@
             // add custom data to the marker
             marker.setData(html);
             group.addObject(marker);
-          } 
+          }
+          /** 
+          * Add maker showing the position of the apartment.
+          * Click event opens an infobubble with html content and links related to the marker.
+          * @param {H.map} map Map instance within the application. 
+          */
+          
+          function addInfoBubble(map){
+            var group = new H.map.Group();
+            map.addObject(group);
+
+            // add event listener, that opens info bubble, to the group.
+            group.addEventListener('tap', function(evt) {
+              // Event target is the marker itself, group is a parent event target.
+              // For all objects that it contains.
+
+              var bubble = new H.ui.InfoBubble(evt.target.getPosition(),{
+              
+              // Read custom data
+              content: evt.target.getData()
+              });
+              // Show info bubble
+              ui.addBubble(bubble);
+            }, false);
+
+            addMarkerToGroup (group, {lat:55.62366038, lng:12.3813818},
+            '<div id ="info"><a href=\'http://mortenaggerholm.dk\'>Ejerlejlighed Sælges</a>');  
+          }
+          
         </script>      
         <nav id="MainNav">
           <ul id="siteNav">
