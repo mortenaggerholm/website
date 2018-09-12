@@ -72,6 +72,15 @@
             addMarkerToGroup (group, {lat:55.62366038, lng:12.3813818},
             '<div id ="info"><a href=\'http://mortenaggerholm.dk\'>Ejerlejlighed Sælges</a>');  
           }
+          // Map initialization code starts
+          // Initialize communication with the platform
+          var platform = new H.service.Platform({
+            app_id:'DemoAppId01082013GAL',
+            app_code: 'AJKnXv84fjrb0KIHawS0Tg',
+            useCIT: true,
+            useHTTPS:true
+          }); 
+
           
         </script>      
         <nav id="MainNav">
