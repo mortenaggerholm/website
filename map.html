@@ -86,8 +86,26 @@
             tileSize: pixelRatio === 1 ? 256 : 512,
             ppi: pixelRatio === 1 undefined : 320 
             }
-          )
+          );
 
+          // Initialize map
+          var map = new H.Map(document.getElementById('map'),
+            defaultLayers.normal.map, {
+            // Set lat/long (Vejlegårdsparken 48,1,18)
+            center:{lat:55.6256, lng:12.3809953},
+            zoom: 16,
+            pixelRatio: pixelRatio
+            }
+          );
+          // MapEvents enables the event system
+          // Behavior implements default interactions for pan/zoom
+          var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
+
+          // Greate default UI with layers provided by the platform
+          var ui = H.ui.UI.createDefault(map, defaultLayers);
+
+          addInfoBubble(map);  
+          
         </script>      
         <nav id="MainNav">
           <ul id="siteNav">
