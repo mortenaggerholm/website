@@ -11,10 +11,10 @@
         <link href="./styles/styles.css" rel="stylesheet" type="text/css">
         <meta name="viewport" content="initial-scale=1.0, width=device-width, height=device-height"/>
         <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css" />
-        <script type="text/javascript" charset="UTF8" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>"
-        <script type="text/javascript" charset="UTF8" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>"
-        <script type="text/javascript" charset="UTF8" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>"
-        <script type="text/javascript" charset="UTF8" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>"
+        <script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>"
+        <script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>"
+        <script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>"
+        <script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>"
       </head>
     <body>
       <div id="container"> <!--start .container-->
@@ -24,22 +24,22 @@
             <ul>
               <li>Du er her:</li>
               <li><a href="index.php">Forside</a>&gt;</li>
-              <li><a href="map.html">Kort</a></li>
+              <li><a href="map.html"><Kort</a></li>
             </ul>
           </div> <!--end .path--> 
         </header>
         <section id="HouseInfo">
-          <header><h1>Vejlegårdsparken 48,1,18 - 2665 Vallensbæk Strand</h1></header>
+          <header><h1>Kort Vejlegårdsparken 48,1,18 - 2665 Vallensbæk Strand</h1></header>
           <!--Map .container-->
-          <div id="map"></div>
-          <script type="text/javascript" charset="UTF8" >
+          <div id="map"> </div>
+          <script type="text/javascript" charset="UTF-8" >
 
           /** Creates a new marker abd add it to a group
            * @param {H.map.Group} group         The group holding the marker
-           * @param {H.map.Point} coordinate    The lat/long of the marker
+           * @param {H.geo.Point} coordinate    The lat/long of the marker
            * @param {String} html               Data associated with the marker 
           */
-          function addMarkerToGroup (group, coordinate, html) {
+          function addMarkerToGroup(group, coordinate, html) {
             var marker = new H.map.Marker(coordinate);
             // add custom data to the marker
             marker.setData(html);
@@ -60,7 +60,7 @@
               // Event target is the marker itself, group is a parent event target.
               // For all objects that it contains.
 
-              var bubble = new H.ui.InfoBubble(evt.target.getPosition(),{
+              var bubble = new H.ui.InfoBubble(evt.target.getPosition(), {
               
               // Read custom data
               content: evt.target.getData()
@@ -69,7 +69,7 @@
               ui.addBubble(bubble);
             }, false);
 
-            addMarkerToGroup (group, {lat:55.62366038, lng:12.3813818},
+            addMarkerToGroup (group, {lat:55.6236038, lng:12.3813818},
             '<h1>Test</h1>');  
           }
           // Map initialization code starts
@@ -82,17 +82,17 @@
           }); 
 
           var pixelRatio = window.devicePixelRatio || 1;
-          var defaultLayers = platform.createDefaultLayers( {
+          var defaultLayers = platform.createDefaultLayers({
             tileSize: pixelRatio === 1 ? 256 : 512,
-            ppi: pixelRatio === 1 ? undefined : 320 
+            ppi: pixelRatio === 1 ? undefined : 320
             }
           );
 
           // Initialize map
           var map = new H.Map(document.getElementById('map'),
-            defaultLayers.normal.map, {
+            defaultLayers.normal.map,{
             // Set lat/long (Vejlegårdsparken 48,1,18)
-            center:{lat:55.6256, lng:12.3809953},
+            center: {lat:55.6256, lng:12.3809953},
             zoom: 16,
             pixelRatio: pixelRatio
             }
@@ -106,7 +106,7 @@
 
           addInfoBubble(map);  
         </script>      
-        <nav id="MainNav">
+        <nav id="mainNav">
           <ul id="siteNav">
             <li class="first"><a href="index.php">Forsiden</a></li>
             <li><a href="map.html">Kort</a></li>
