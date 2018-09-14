@@ -85,3 +85,15 @@ footer#pageFooter p {
 #path a:hover {
     color: #79e24e;
 }
+
+/* map Tags */
+
+#map {
+    position: relative;
+    left: 50px;
+    right: 90px;
+    top: 15px;
+    width: 750px;
+    height: 645px;
+    background-color: #CCC; 
+}
