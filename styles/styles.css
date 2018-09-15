@@ -68,14 +68,13 @@ footer#pageFooter p {
     left: 20px;
     top: -20px;
     color: #FFF;
-    font-size: 14px;
+    font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 
 #path li {
     display: inline;
-
 }
 
 #path a {
@@ -117,8 +116,8 @@ nav ul, ul.menu {
 #mainNav {
     margin: 0;
     padding: 6px 4px;
-    margin-top: 10px;
-    width: 750px;
+    margin-top: 20px;
+    width: 800px;
     text-align: center;
 }
 
