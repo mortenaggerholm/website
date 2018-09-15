@@ -92,7 +92,6 @@ footer#pageFooter p {
     position: relative;
     left: 50px;
     top: 15px;
-    width: 90px;
     height: 645px;
     width: 750px;
     background-color: #CCC; 
@@ -108,3 +107,51 @@ section#houseInfo {
     width: 860px;
     margin-bottom: 10px;
 }
+
+/* mainNav Tags */
+
+nav ul, ul.menu {
+    list-style: none;
+}
+
+#mainNav {
+    margin: 0;
+    padding: 6px 4px;
+    margin-top: 10px;
+    width: 750px;
+    text-align: center;
+}
+
+#mainNav li.last {
+    border-right: 0;
+}
+
+#mainNav li.first a {
+    padding-left: 20px;
+}
+
+#mainNav a {
+    color: #000;
+    padding-right: 20px;
+}
+
+#mainNav a:hover {
+    color: #79e24e
+}
+
+#mainNav h1 {
+    position: absolute;
+    left: -2000em;  
+}
+
+#mainNav li {
+    display: inline;
+    margin-right: 10px;
+    border-right: 2px solid #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+
