@@ -91,9 +91,20 @@ footer#pageFooter p {
 #map {
     position: relative;
     left: 50px;
-    right: 90px;
     top: 15px;
-    width: 750px;
+    width: 90px;
     height: 645px;
+    width: 750px;
     background-color: #CCC; 
+}
+
+/* houseInfo Tags */
+
+section#houseInfo {
+    background-color: #f4f3f3;
+    border: 0px solid #7f7f7f;
+    border-radius: 15px;
+    padding: 20px;
+    width: 860px;
+    margin-bottom: 10px;
 }
