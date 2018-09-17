@@ -151,6 +151,38 @@ nav ul, ul.menu {
     font-size: 14px;
 }
 
+/* infoBubble Tags */
+
+#info {
+    margin: 10px 5px 10px 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#info a:hover {
+    color: #FFF;
+}
+
+#infotext {
+    margin: 10px 5px 10px 10px;
+    background-color: #CCC;
+    padding: 5px;
+}
+
+#infolink {
+    margin: 10px 5px 10px 10px;
+    background-color: #CCC;
+    padding: 5px;    
+}
+
+#infolink a:hover {
+    color: #FFF;
+}
+
+
+
+
 
 
 
