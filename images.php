@@ -2,6 +2,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
    <html>
+    <? include('config.php'); ?>
+    <?php ini_set ('display_error', 0);?> 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="description" content="Ejerlejlighed Sælges NU!">
@@ -23,7 +25,7 @@
           </div> <!--end .path--> 
         </header> <!-- end .header-->
         <section id="houseInfo">
-          <h1><?php echo $titel; ?></h1>
+          <h1><?php echo $title; ?></h1>
         </section>
         <footer id="pageFooter"> <!--start .pageFooter-->
           <p>Kontaktoplysninger: Morten Aggerholm - Tlf. 29 70 41 32 - <a href="mailto:morten@mortenaggerholm.dk">E-mail: morten(at)mortenaggerholm.dk</a></p>
