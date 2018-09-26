@@ -5,7 +5,7 @@
     <? include('config.php'); ?>
     <?php ini_set ('display_error', 0);?> 
     <head>
-        <meta charset=UTF-8">
+        <meta charset="UTF-8">
         <meta http-equiv="imagetoolbar" content="no">
         <meta name="description" content="Ejerlejlighed Sælges NU!">
         <meta name="keywords" content="Ejerlejlighed, Vallensbæk Starnd, Ejerlejlighed Sælges">
@@ -16,7 +16,7 @@
         <script type="text/javascript" src="jquery.fancybox/jquery-1.3.2.mim.js"></script>
         <script type="text/javascript" src="jquery.fancybox/jquery.easing.1.3.js"></script>
         <script type="text/javascript" src="jquery.fancybox/jquery.fancybox-1.2.1.pack.js"></script>
-        <script type="text/javascript" $(document).ready(function() {
+        <script type="text/javascript"> $(document).ready(function() {
           $("a.image").fancybox();
         });
         </script>
