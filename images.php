@@ -36,7 +36,15 @@
         <section id="houseInfo">
           <h1><?php echo $title; ?></h1>
           <p>
-          <?php echo $subtitle; ?></h1>
+          <?php echo $subtitle; ?><br />
+          <?php
+            foreach($image as $disImage) {
+              echo '<a rel="group" title="'.$disImage.'"
+              href="'.$dir.'/'.$disImage.'" title="'.$disImage.'" class="image"><img
+              src="'.$dir.'/'.$disImage.'" height="'.$maxheight.'" width="'.maxwidth.'"/></a>';
+            }
+            ?>
+            </p>
         </section>
         <footer id="pageFooter"> <!--start .pageFooter-->
           <p>Kontaktoplysninger: Morten Aggerholm - Tlf. 29 70 41 32 - <a href="mailto:morten@mortenaggerholm.dk">E-mail: morten(at)mortenaggerholm.dk</a></p>
