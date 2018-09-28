@@ -3,17 +3,16 @@
    "http://www.w3.org/TR/html4/loose.dtd">
    <html>
     <? include('config.php'); ?>
-    <?php ini_set ('display_error', 0);?> 
+    <?php ini_set ("display_error", 0);?> 
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="imagetoolbar" content="no">
+        <meta http-equiv="Content-Type" content="text; charset=utf-8">
         <meta name="description" content="Ejerlejlighed Sælges NU!">
-        <meta name="keywords" content="Ejerlejlighed, Vallensbæk Starnd, Ejerlejlighed Sælges">
+        <meta name="keywords" content="Ejerlejlighed, Vallensbæk Strand, Ejerlejlighed Sælges">
         <meta name="author" content="Morten Aggerholm">
         <title>Ejerlejlighed Sælges NU!</title>
         <link href="./styles/styles.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="/jquery.fancybox/jquery.fancybox.css" media ="screen" />
-        <script type="text/javascript" src="jquery.fancybox/jquery-1.3.2.mim.js"></script>
+        <script type="text/javascript" src="jquery.fancybox/jquery-1.3.2.min.js"></script>
         <script type="text/javascript" src="jquery.fancybox/jquery.easing.1.3.js"></script>
         <script type="text/javascript" src="jquery.fancybox/jquery.fancybox-1.2.1.pack.js"></script>
         <script type="text/javascript"> $(document).ready(function() {
@@ -24,7 +23,7 @@
     <body>
       <div id="container"> <!--start .container-->
         <header id="mainHeader">
-          <a href="index.html>"><img src="design/top.png" alt="Top Image"></a>
+          <a href="index.php>"><img src="design/top.png" alt="Top Image"></a>
           <div id="path"> <!--start .path-->
               <ul>
                 <li>Du er her: </li>
@@ -41,14 +40,14 @@
             foreach($image as $disImage) {
               echo '<a rel="group" title="'.$disImage.'"
               href="'.$dir.'/'.$disImage.'" title="'.$disImage.'" class="image"><img
-              src="'.$dir.'/'.$disImage.'" height="'.$maxheight.'" width="'.maxwidth.'"/></a>';
+              src="'.$dir.'/'.$disImage.'" height="'.$maxheight.'" width="'.$maxwidth.'" /></a>';
             }
             ?>
             </p>
         </section>
         <footer id="pageFooter"> <!--start .pageFooter-->
           <p>Kontaktoplysninger: Morten Aggerholm - Tlf. 29 70 41 32 - <a href="mailto:morten@mortenaggerholm.dk">E-mail: morten(at)mortenaggerholm.dk</a></p>
-          <p>&copy Copyright 2018 - Alle Rettigheder Forbeholdes</p>
+          <p>&copy; Copyright 2018 - Alle Rettigheder Forbeholdes</p>
         </footer> <!--end.container--> 
       </div><!--end.container--> 
 
