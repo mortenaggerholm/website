@@ -14,11 +14,11 @@ a {
 }
 
 a:hover {
-    color: #000000;    
+    color: #79e24e;    
 }
 
 /*html display rule*/
-article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, section, summary {
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
     display: block;
 }
 
@@ -74,11 +74,13 @@ footer#pageFooter p {
 }
 
 #path li {
+    left: 20px;
+    top: -15px;
     display: inline;
 }
 
 #path a {
-    color: #FFF
+    color: #FFF;
 }
 
 #path a:hover {
@@ -135,7 +137,7 @@ nav ul, ul.menu {
 }
 
 #mainNav a:hover {
-    color: #79e24e
+    color: #79e24e;
 }
 
 #mainNav h1 {
@@ -179,7 +181,6 @@ nav ul, ul.menu {
 #infolink a:hover {
     color:#FFF;
 }
-
 #image {
     margin-top: 15px;
     height:151px;
