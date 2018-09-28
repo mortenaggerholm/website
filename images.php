@@ -29,7 +29,7 @@
               <ul>
                 <li>Du er her: </li>
                 <li><a href="index.php">Forside</a>&gt;</li>
-                <li><a href="images.html">Billeder</a></li>
+                <li><a href="images.php">Billeder</a></li>
               </ul>
           </div> <!--end .path--> 
         </header> <!-- end .header-->
