@@ -108,6 +108,31 @@ section#houseInfo {
     width: 860px;
     margin-bottom: 10px;
 }
+section#houseInfo img {
+    position: relative;
+    border: 2px solid #CCC;
+    padding: 4px;
+    margin: 10px 5px 10px 0;
+    left: 5px;
+}
+
+section#houseInfo p {
+    font-size: 14px;
+    color: #000;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section#houseInfo a {
+    color: #000;    
+}
+
+section#houseInfo header h1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
 
 /* mainNav Tags */
 
@@ -181,10 +206,11 @@ nav ul, ul.menu {
 #infolink a:hover {
     color:#FFF;
 }
+
 #image {
     margin-top: 15px;
-    height:151px;
-    width:230px;
+    height: 151px;
+    width: 230px;
     display: inline;
 }
 
