@@ -14,11 +14,11 @@ a {
 }
 
 a:hover {
-    color: #000000;    
+    color: #79e24e;    
 }
 
 /*html display rule*/
-article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, section, summary {
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
     display: block;
 }
 
@@ -74,11 +74,13 @@ footer#pageFooter p {
 }
 
 #path li {
+    left: 20px;
+    top: -15px;
     display: inline;
 }
 
 #path a {
-    color: #FFF
+    color: #FFF;
 }
 
 #path a:hover {
@@ -105,6 +107,31 @@ section#houseInfo {
     padding: 20px;
     width: 860px;
     margin-bottom: 10px;
+}
+section#houseInfo img {
+    position: relative;
+    border: 2px solid #CCC;
+    padding: 4px;
+    margin: 10px 5px 10px 0;
+    left: 5px;
+}
+
+section#houseInfo p {
+    font-size: 14px;
+    color: #000;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section#houseInfo a {
+    color: #000;    
+}
+
+section#houseInfo header h1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
 }
 
 /* mainNav Tags */
@@ -135,7 +162,7 @@ nav ul, ul.menu {
 }
 
 #mainNav a:hover {
-    color: #79e24e
+    color: #79e24e;
 }
 
 #mainNav h1 {
@@ -182,8 +209,8 @@ nav ul, ul.menu {
 
 #image {
     margin-top: 15px;
-    height:151px;
-    width:230px;
+    height: 151px;
+    width: 230px;
     display: inline;
 }
 
