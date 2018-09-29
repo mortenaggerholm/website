@@ -48,7 +48,7 @@
                 // SQL Query
                 $result = mysql_query("SELECT LejlighedID, Header, Uheader, Body, Lejligheden, Ejendommen, Boligareal, Rum, Year, Energimaerke, Pris, PrisPrm2, Ejerudgifter, Status, Posteddate
                                         FROM Ejerlejlighed
-                                        ORDER BY LejlighedßID DESC
+                                        ORDER BY LejlighedID DESC
                                         LIMIT 5");
                                         
         <footer id="pageFooter"> <!--start .pageFooter-->
