@@ -41,9 +41,19 @@
                 echo "<html><body><H2>ERROR: $msg </H2></body></html>";
                 exit; // Undgå at forstætte scriptet. 
                 }
+
+                /* Der oprettes adgang til databasen via funktionen mydb_connect() */
+                
+                mydb_connect();
+                // SQL Query
+                $result = mysql_query("SELECT LejlighedsID, Header, Uheader, Body, Lejligheden, Ejendommen, Boligareal, Rum, Year, Energimaerke, Pris, PrisPrm2, Ejerudgifter, Status, Posteddate
+                                        FROM Ejerlejlighed
+                                        ORDER BY LejlighedsID DESC
+                                        LIMIT 5");
+                                        
         <footer id="pageFooter"> <!--start .pageFooter-->
           <p>Kontaktoplysninger: Morten Aggerholm - Tlf. 29 70 41 32 - <a href="mailto:morten@mortenaggerholm.dk">E-mail: morten(at)mortenaggerholm.dk</a></p>
-          <p>&copy Copyright 2018 - Alle Rettigheder Forbeholdes</p>
+          <p>&copy; Copyright 2018 - Alle Rettigheder Forbeholdes</p>
         </footer> <!--end.container--> 
       </div><!--end.container--> 
     </body>
