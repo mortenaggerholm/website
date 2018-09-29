@@ -50,7 +50,16 @@
                                         FROM Ejerlejlighed
                                         ORDER BY LejlighedID DESC
                                         LIMIT 5");
-                                        
+                <section>
+                <article> </article>
+                <nav id="mainNav">
+                    <ul id="siteNav">
+                      <li class="first"><a href="index.php">Forsiden</a></li>
+                      <li><a href="map.html">Kort</a></li>
+                      <li class="last"><a href="images.php">Billeder</a></li>
+                    </ul>
+                  </nav>   
+          </section>                         
         <footer id="pageFooter"> <!--start .pageFooter-->
           <p>Kontaktoplysninger: Morten Aggerholm - Tlf. 29 70 41 32 - <a href="mailto:morten@mortenaggerholm.dk">E-mail: morten(at)mortenaggerholm.dk</a></p>
           <p>&copy; Copyright 2018 - Alle Rettigheder Forbeholdes</p>
