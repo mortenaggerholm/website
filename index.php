@@ -54,20 +54,21 @@
                 $i = 0;
                 while ($row = mysql_fetch_array($result )){
                   // Udskriver validerende HTML
-                  echo <section id='houseInfo'>
+                  echo "<section id='houseInfo'>
                   <article>
                   <header><h1>Ejerlejlighed Sælges: $row[1] <br> </h1></header>
-                }
                 </article>
-                </section>
-                <nav id="mainNav">
-                    <ul id="siteNav">
-                      <li class="first"><a href="index.php">Forsiden</a></li>
-                      <li><a href="map.html">Kort</a></li>
-                      <li class="last"><a href="images.php">Billeder</a></li>
+                <nav id='mainNav'>
+                    <ul id='siteNav'>
+                      <li class='first'><a href='index.php'>Forsiden</a></li>
+                      <li><a href='map.html'>Kort</a></li>
+                      <li class='last'><a href='images.php'>Billeder</a></li>
                     </ul>
                   </nav>   
-          </section>                         
+          </section>  ";
+                $i++;
+                }
+              ?>                    
         <footer id="pageFooter"> <!--start .pageFooter-->
           <p>Kontaktoplysninger: Morten Aggerholm - Tlf. 29 70 41 32 - <a href="mailto:morten@mortenaggerholm.dk">E-mail: morten(at)mortenaggerholm.dk</a></p>
           <p>&copy; Copyright 2018 - Alle Rettigheder Forbeholdes</p>
