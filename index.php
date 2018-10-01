@@ -50,8 +50,16 @@
                                         FROM Ejerlejlighed
                                         ORDER BY LejlighedID DESC
                                         LIMIT 5");
-                <section>
-                <article> </article>
+                // SQL Query i MYSQL Databasen
+                $i = 0;
+                while ($row = mysql_fetch_array($result )){
+                  // Udskriver validerende HTML
+                  echo <section id='houseInfo'>
+                  <article>
+                  <header><h1>Ejerlejlighed Sælges: $row[1] <br> </h1></header>
+                }
+                </article>
+                </section>
                 <nav id="mainNav">
                     <ul id="siteNav">
                       <li class="first"><a href="index.php">Forsiden</a></li>
