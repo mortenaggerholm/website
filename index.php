@@ -60,9 +60,15 @@
                   <div id='image'> 
                   <img src='images/index1.jpg' width = '192' height='128' alt='$row[1]'/>
                   <img src='images/index2.jpg' width = '192' height='128' alt='$row[1]'/> 
-                  <img src='images/index3.jpg' width = '192' height='128' alt='$row[1]/> 
+                  <img src='images/index3.jpg' width = '192' height='128' alt='$row[1]'/> 
                   <img src='images/index4.jpg' width = '192' height='128' alt='$row[1]'/>
                   </div>
+                  <header><h1>$row[2] <br></h1></header>
+                  <div id='header'>
+                    <p>$row[3]<br></p>
+                    <p>$row[4]<br></p>
+                    <p>$row[5]<br></p>
+                  </div> 
                 </article>
                 <nav id='mainNav'>
                     <ul id='siteNav'>
