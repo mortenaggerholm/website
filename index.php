@@ -57,6 +57,12 @@
                   echo "<section id='houseInfo'>
                   <article>
                   <header><h1>Ejerlejlighed Sælges: $row[1] <br> </h1></header>
+                  <div id='image'> 
+                  <img src='images/index1.jpg' width = '192' height='128' alt='$row[1]'/>
+                  <img src='images/index2.jpg' width = '192' height='128' alt='$row[1]'/> 
+                  <img src='images/index3.jpg' width = '192' height='128' alt='$row[1]/> 
+                  <img src='images/index4.jpg' width = '192' height='128' alt='$row[1]'/>
+                  </div>
                 </article>
                 <nav id='mainNav'>
                     <ul id='siteNav'>
