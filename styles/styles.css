@@ -208,9 +208,10 @@ nav ul, ul.menu {
 }
 
 #infolink {
+    left: 0em;
     margin: 10px 5px 10px 10px;
     background-color:#CCC;
-    padding: 5px;    
+    padding: 5px; 
 }
 
 #infolink a:hover {
