@@ -191,6 +191,16 @@ nav ul, ul.menu {
     color:#FFF;
 }
 
+#infoTable {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+#infoTable li {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
 #infotext {
     margin: 10px 5px 10px 10px;
     background-color:#CCC;
