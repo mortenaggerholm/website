@@ -23,9 +23,6 @@
             ini_set('display_errors', FALSE);
             /* MySQL Database Connect Function */
             function mydb_connect(){
-                $dbhost = " ";
-                $user = " ";
-                $passwd = " ";
                 // Create connection
                 $db = mysql_connect($dbhost, $user, $passwd);
                     if($db == 0){
@@ -69,8 +66,8 @@
                     <p>$row[4]<br></p>
                     <p>$row[5]<br></p>
                   </div>
-                  <div id='info'>
-                    <ul id = 'infoTable'>
+                  <div id='infoTable'>
+                    <ul>
                       <li><p>$row[6]</p></li>
                       <li><p>$row[7]</p></li>
                       <li><p>$row[8]</p></li>
@@ -79,7 +76,7 @@
                       <li><p>$row[11]</p></li>
                       <li><p>$row[12]</p></li>
                       <li><p>$row[13]</p></li>
-                      <li><p>$row[14]</p></li>
+                      <li><p>Opdateret sidst: $row[14]</p></li>
                     </ul>
                   </div>  
                 </article>
